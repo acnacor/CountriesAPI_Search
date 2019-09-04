@@ -732,11 +732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj",
-      "projectName": "CountriesAPI_Search.Service",
-      "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj",
+      "projectUniqueName": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Domain\\CountriesAPI_Search.Domain.csproj",
+      "projectName": "CountriesAPI_Search.Domain",
+      "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Domain\\CountriesAPI_Search.Domain.csproj",
       "packagesPath": "C:\\Users\\AC\\.nuget\\packages\\",
-      "outputPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\obj\\",
+      "outputPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

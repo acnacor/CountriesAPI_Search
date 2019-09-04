@@ -1,0 +1,5 @@
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Domain\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.deps.json
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Domain\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Domain\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.csproj.CoreCompileInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Domain\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.AssemblyInfoInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Domain\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.AssemblyInfo.cs

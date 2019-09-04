@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAPI_Search", "Coun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAPI_Search.Service", "CountriesAPI_Search.Service\CountriesAPI_Search.Service.csproj", "{CFF3C183-8C75-4E81-82CE-E527C44E329D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAPI_Search.Domain", "CountriesAPI_Search.Domain\CountriesAPI_Search.Domain.csproj", "{C705BAC5-9ECC-48D7-8E6A-B4A93A50E21F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C705BAC5-9ECC-48D7-8E6A-B4A93A50E21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C705BAC5-9ECC-48D7-8E6A-B4A93A50E21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C705BAC5-9ECC-48D7-8E6A-B4A93A50E21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C705BAC5-9ECC-48D7-8E6A-B4A93A50E21F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

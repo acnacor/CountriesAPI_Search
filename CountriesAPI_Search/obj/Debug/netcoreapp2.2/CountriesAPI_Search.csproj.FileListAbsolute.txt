@@ -12,3 +12,5 @@ G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netco
 G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.RazorTargetAssemblyInfo.cache
 G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.dll
 G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.pdb
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Service.dll
