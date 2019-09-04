@@ -4438,6 +4438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CountriesAPI_Search.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/CountriesAPI_Search.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CountriesAPI_Search.Service.dll": {}
+        }
       }
     }
   },
@@ -12068,10 +12078,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CountriesAPI_Search.Service/1.0.0": {
+      "type": "project",
+      "path": "../CountriesAPI_Search.Service/CountriesAPI_Search.Service.csproj",
+      "msbuildProject": "../CountriesAPI_Search.Service/CountriesAPI_Search.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "CountriesAPI_Search.Service >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12106,7 +12122,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj": {
+              "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

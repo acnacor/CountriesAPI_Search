@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAPI_Search", "CountriesAPI_Search\CountriesAPI_Search.csproj", "{A2A7B143-EA15-4274-8CF1-38F323CFD7FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesAPI_Search.Service", "CountriesAPI_Search.Service\CountriesAPI_Search.Service.csproj", "{CFF3C183-8C75-4E81-82CE-E527C44E329D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A2A7B143-EA15-4274-8CF1-38F323CFD7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2A7B143-EA15-4274-8CF1-38F323CFD7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2A7B143-EA15-4274-8CF1-38F323CFD7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF3C183-8C75-4E81-82CE-E527C44E329D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

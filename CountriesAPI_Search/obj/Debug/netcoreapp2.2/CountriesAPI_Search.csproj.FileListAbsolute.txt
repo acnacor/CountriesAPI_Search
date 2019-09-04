@@ -1,0 +1,14 @@
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.deps.json
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.runtimeconfig.json
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.runtimeconfig.dev.json
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\bin\Debug\netcoreapp2.2\CountriesAPI_Search.pdb
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.csprojAssemblyReference.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.csproj.CoreCompileInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.RazorAssemblyInfo.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.RazorAssemblyInfo.cs
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.AssemblyInfoInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.AssemblyInfo.cs
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.RazorTargetAssemblyInfo.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search\obj\Debug\netcoreapp2.2\CountriesAPI_Search.pdb
