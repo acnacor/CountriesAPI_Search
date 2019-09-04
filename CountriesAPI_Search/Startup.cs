@@ -13,7 +13,7 @@ using CountriesAPI_Search.Repository.Interface;
 using CountriesAPI_Search.Repository;
 using CountriesAPI_Search.Service.Interface;
 
-namespace CountriesAPI_Searchs
+namespace CountriesAPI_Search
 {
     public class Startup
     {

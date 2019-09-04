@@ -1,4 +1,5 @@
-﻿using CountriesAPI_Search.Service.Interface;
+﻿using CountriesAPI_Search.Domain.ViewModel;
+using CountriesAPI_Search.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CountriesAPI_Search.Controllers
 {
-    public class CountryController
+    public class CountryController : Controller
     {
         private readonly ICountrySearchService _countryService;
 
