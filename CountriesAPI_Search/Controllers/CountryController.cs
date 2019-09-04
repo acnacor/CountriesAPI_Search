@@ -16,5 +16,21 @@ namespace CountriesAPI_Search.Controllers
             _countryService = countryService;
         }
 
+        public async Task<IActionResult> Index(string countryName)
+        {
+
+            if (!string.IsNullOrWhiteSpace(countryName))
+            {
+                var result = await _countryService.GetSearchResultFromCountryName(countryName);
+
+                ViewData["search"] = countryName;
+
+                return View(result);
+            }
+
+            return View(new List<CountryViewModel>());
+
+
+        }
     }
 }
