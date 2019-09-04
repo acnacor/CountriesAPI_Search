@@ -1,0 +1,43 @@
+﻿@model List<CountryViewModel>
+@{
+    ViewBag.Title = "Country Search";
+}
+
+
+<div class="container">
+    <div class="jumbotron bg-white">
+        @await Html.PartialAsync("_searchFormPartial", Model)
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+        <h2 class="text-center">
+            No results found for: <span class="text-danger">"@ViewData["query"]"</span>
+        </h2>
+
+}
+else
+{
+    <div class="row">
+        @foreach (var country in Model)
+        {
+            <div class="col-sm-auto col-md-auto col-lg-2 mb-5 ml-5">
+                <div class="card h-100 shadow rounded" style="width: 20rem;">
+                    <div class="card-header">@country.Name</div>
+                    <img class="card-img-top" src="@country.Flag">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Capital: @country.Capital</li>
+                            <li>Region: @country.Region</li>
+                            <li>Subregion: @country.Subregion</li>
+                            <li>Population: @country.Population</li>
+                            <li>Demonym: @country.Demonym</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+}

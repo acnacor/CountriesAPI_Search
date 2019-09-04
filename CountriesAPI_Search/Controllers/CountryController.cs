@@ -17,21 +17,36 @@ namespace CountriesAPI_Search.Controllers
             _countryService = countryService;
         }
 
-        public async Task<IActionResult> Index(string countryName)
+
+        public IActionResult Index(string countryName)
+        {
+            return RedirectToAction("DisplayCountry",countryName);
+        }
+
+        public async Task<IActionResult> DisplayCountry(string countryName)
         {
 
             if (!string.IsNullOrWhiteSpace(countryName))
             {
                 var result = await _countryService.GetSearchResultFromCountryName(countryName);
 
-                ViewData["search"] = countryName;
+                ViewData["query"] = countryName;
 
-                return View(result);
+                if (result != null)
+                {
+                    return View(result);
+                }
+                else
+                {
+                    return View(new List<CountryViewModel>());
+                }
+
+
             }
 
             return View(new List<CountryViewModel>());
 
-
         }
+
     }
 }

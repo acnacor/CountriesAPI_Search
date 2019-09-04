@@ -23,7 +23,16 @@ namespace CountriesAPI_Search.Service
         public async Task<List<CountryViewModel>> GetSearchResultFromCountryName(string countryName)
         {
             var searchResult = await _countryRepository.GetSearchResultFromCountryName(countryName);
-            return _mapper.Map<List<CountryViewModel>>(searchResult);
+
+            if(searchResult != null)
+            {
+                return _mapper.Map<List<CountryViewModel>>(searchResult);
+            }
+            else
+            {
+                return null;
+            }
+            
         }
 
     }

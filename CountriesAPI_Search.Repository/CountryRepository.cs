@@ -20,7 +20,16 @@ namespace CountriesAPI_Search.Repository
 
             var response = await Response.GetResponse(uri);
 
-            return JsonConvert.DeserializeObject<List<CountrySearchResult>>(await response.Content.ReadAsStringAsync());
+            if(response != null)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<List<CountrySearchResult>>(content);
+
+            } else
+            {
+                return null;
+            }
+            
 
         }
 
