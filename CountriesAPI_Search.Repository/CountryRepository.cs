@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CountriesAPI_Search.Repository
 {
-    class CountryRepository : ICountryRepository
+    public class CountryRepository : ICountryRepository
     {
         const string ApiUri = "https://restcountries.eu/rest/v2/name/";
 

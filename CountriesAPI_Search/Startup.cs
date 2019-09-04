@@ -7,8 +7,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using AutoMapper;
+using CountriesAPI_Search.Service;
+using CountriesAPI_Search.Repository.Interface;
+using CountriesAPI_Search.Repository;
+using CountriesAPI_Search.Service.Interface;
 
-namespace CountriesAPI_Search
+namespace CountriesAPI_Searchs
 {
     public class Startup
     {
@@ -26,6 +31,22 @@ namespace CountriesAPI_Search
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddTransient<ICountryRepository, CountryRepository>();
+
+            services.AddTransient<ICountrySearchService, CountrySearchService>();
+
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+
+            mappingConfig.AssertConfigurationIsValid();
+
+            var mapper = mappingConfig.CreateMapper();
+
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
