@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CountriesAPI_Search.Domain\CountriesAPI_Search.Domain.csproj" />
+    <ProjectReference Include="..\CountriesAPI_Search.Repository\CountriesAPI_Search.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

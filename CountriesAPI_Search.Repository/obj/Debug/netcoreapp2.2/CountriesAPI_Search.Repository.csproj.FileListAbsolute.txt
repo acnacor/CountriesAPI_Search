@@ -1,0 +1,12 @@
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.csprojAssemblyReference.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.csproj.CoreCompileInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.AssemblyInfoInputs.cache
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.AssemblyInfo.cs
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.deps.json
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.pdb
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\bin\Debug\netcoreapp2.2\CountriesAPI_Search.Domain.pdb
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.csproj.CopyComplete
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.dll
+G:\Projects\source\repos\CountriesAPI_Search\CountriesAPI_Search.Repository\obj\Debug\netcoreapp2.2\CountriesAPI_Search.Repository.pdb

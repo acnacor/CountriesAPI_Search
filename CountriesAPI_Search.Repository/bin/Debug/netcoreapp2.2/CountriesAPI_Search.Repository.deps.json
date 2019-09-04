@@ -6,14 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "CountriesAPI_Search.Service/1.0.0": {
+      "CountriesAPI_Search.Repository/1.0.0": {
         "dependencies": {
-          "CountriesAPI_Search.Domain": "1.0.0",
-          "CountriesAPI_Search.Repository": "1.0.0",
-          "Newtonsoft.Json": "12.0.2"
+          "CountriesAPI_Search.Domain": "1.0.0"
         },
         "runtime": {
-          "CountriesAPI_Search.Service.dll": {}
+          "CountriesAPI_Search.Repository.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.2": {
@@ -31,19 +29,11 @@
         "runtime": {
           "CountriesAPI_Search.Domain.dll": {}
         }
-      },
-      "CountriesAPI_Search.Repository/1.0.0": {
-        "dependencies": {
-          "CountriesAPI_Search.Domain": "1.0.0"
-        },
-        "runtime": {
-          "CountriesAPI_Search.Repository.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "CountriesAPI_Search.Service/1.0.0": {
+    "CountriesAPI_Search.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -56,11 +46,6 @@
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "CountriesAPI_Search.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CountriesAPI_Search.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

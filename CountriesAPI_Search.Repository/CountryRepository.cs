@@ -1,7 +1,7 @@
 ﻿
-using CountriesAPI_Search.Repository.HttpResponse;
+using CountriesAPI_Search.Domain.HttpResponse;
+using CountriesAPI_Search.Domain.Models;
 using CountriesAPI_Search.Repository.Interface;
-using CountriesAPI_Search.Repository.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

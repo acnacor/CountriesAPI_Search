@@ -8,13 +8,19 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Views\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CountriesAPI_Search.Domain\CountriesAPI_Search.Domain.csproj" />
+    <ProjectReference Include="..\CountriesAPI_Search.Repository\CountriesAPI_Search.Repository.csproj" />
+    <ProjectReference Include="..\CountriesAPI_Search.Service\CountriesAPI_Search.Service.csproj" />
   </ItemGroup>
 
 </Project>

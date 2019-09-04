@@ -1,4 +1,5 @@
-﻿using CountriesAPI_Search.Repository.Models;
+﻿
+using CountriesAPI_Search.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace CountriesAPI_Search.Repository.Interface
 {
-    interface ICountryRepository
+    public interface ICountryRepository
     {
         Task<List<CountrySearchResult>> GetSearchResultFromCountryName(string countryName);
     }
-}
 }
