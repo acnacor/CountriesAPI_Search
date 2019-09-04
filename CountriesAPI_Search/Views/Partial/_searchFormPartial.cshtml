@@ -1,0 +1,14 @@
+﻿<div class="container h-100">
+    <div class="row with-margin h-100 justify-content-center align-items-center">
+        <div class="col-lg-12">
+            <form asp-controller="Country" asp-action="Index" method="get">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control input-lg" placeholder="Name of country (e.g. Australia, Canada, Philippines)" name="countryName" value=@(ViewData["search"] ?? string.Empty)>
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary btn-lg" type="submit">Search</button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+</div>
