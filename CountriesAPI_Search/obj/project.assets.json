@@ -4452,10 +4452,25 @@
           "bin/placeholder/CountriesAPI_Search.Domain.dll": {}
         }
       },
+      "CountriesAPI_Search.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "CountriesAPI_Search.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CountriesAPI_Search.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CountriesAPI_Search.Repository.dll": {}
+        }
+      },
       "CountriesAPI_Search.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "CountriesAPI_Search.Domain": "1.0.0",
+          "CountriesAPI_Search.Repository": "1.0.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
@@ -12100,6 +12115,11 @@
       "path": "../CountriesAPI_Search.Domain/CountriesAPI_Search.Domain.csproj",
       "msbuildProject": "../CountriesAPI_Search.Domain/CountriesAPI_Search.Domain.csproj"
     },
+    "CountriesAPI_Search.Repository/1.0.0": {
+      "type": "project",
+      "path": "../CountriesAPI_Search.Repository/CountriesAPI_Search.Repository.csproj",
+      "msbuildProject": "../CountriesAPI_Search.Repository/CountriesAPI_Search.Repository.csproj"
+    },
     "CountriesAPI_Search.Service/1.0.0": {
       "type": "project",
       "path": "../CountriesAPI_Search.Service/CountriesAPI_Search.Service.csproj",
@@ -12109,10 +12129,12 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "CountriesAPI_Search.Domain >= 1.0.0",
+      "CountriesAPI_Search.Repository >= 1.0.0",
       "CountriesAPI_Search.Service >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Newtonsoft.Json >= 12.0.2"
     ]
   },
   "packageFolders": {
@@ -12148,6 +12170,9 @@
             "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Domain\\CountriesAPI_Search.Domain.csproj": {
               "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Domain\\CountriesAPI_Search.Domain.csproj"
             },
+            "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Repository\\CountriesAPI_Search.Repository.csproj": {
+              "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Repository\\CountriesAPI_Search.Repository.csproj"
+            },
             "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj": {
               "projectPath": "G:\\Projects\\source\\repos\\CountriesAPI_Search\\CountriesAPI_Search.Service\\CountriesAPI_Search.Service.csproj"
             }
@@ -12179,6 +12204,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
           }
         },
         "imports": [
