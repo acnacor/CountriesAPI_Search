@@ -61,9 +61,11 @@ namespace CountriesAPI_Search
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Users}/{action=Index}/{id?}");
+                            routes.MapRoute(
+                name: "default",
+                template: "{action}/{id?}",
+                defaults: new { controller = "Country", action = "Index" });
+
             });
         }
     }

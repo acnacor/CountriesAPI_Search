@@ -1,5 +1,6 @@
 ﻿using CountriesAPI_Search.Domain.ViewModel;
 using CountriesAPI_Search.Service.Interface;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,36 +18,29 @@ namespace CountriesAPI_Search.Controllers
             _countryService = countryService;
         }
 
-
-        public IActionResult Index(string countryName)
+        public IActionResult Index()
         {
-            return RedirectToAction("DisplayCountry",countryName);
+            return View();
         }
 
-        public async Task<IActionResult> DisplayCountry(string countryName)
+        public async Task<IActionResult> Search(string countryName)
         {
-
             if (!string.IsNullOrWhiteSpace(countryName))
             {
-                var result = await _countryService.GetSearchResultFromCountryName(countryName);
-
                 ViewData["query"] = countryName;
+                var result = await _countryService.GetSearchResultFromCountryName(countryName);
 
                 if (result != null)
                 {
                     return View(result);
                 }
-                else
-                {
-                    return View(new List<CountryViewModel>());
-                }
+                   
+            }
 
+                return View(new List<CountryViewModel>());
 
             }
 
-            return View(new List<CountryViewModel>());
-
-        }
 
     }
 }

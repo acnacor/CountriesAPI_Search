@@ -1,7 +1,7 @@
 ﻿
     <div class="row with-margin h-100 justify-content-center align-items-center">
         <div class="col-lg-12">
-            <form asp-controller="Country" asp-action="DisplayCountry" method="get">
+            <form asp-controller="Country" asp-action="Search" method="get">
                 <div class="input-group input-group-lg">
                     <input type="text" class="form-control input-lg" placeholder="Name of country (e.g. Australia, Canada, Philippines)" name="countryName" value=@(ViewData["query"] ?? string.Empty)>
                     <span class="input-group-btn">

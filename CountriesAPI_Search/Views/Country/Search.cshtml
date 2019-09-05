@@ -12,10 +12,9 @@
 
 @if (!Model.Any())
 {
-        <h2 class="text-center">
-            No results found for: <span class="text-danger">"@ViewData["query"]"</span>
-        </h2>
-
+    <h2 class="text-center">
+        No results found for: <span class="text-danger">"@ViewData["query"]"</span>
+    </h2>
 }
 else
 {
@@ -27,13 +26,11 @@ else
                     <div class="card-header">@country.Name</div>
                     <img class="card-img-top" src="@country.Flag">
                     <div class="card-body bg-light">
-                        <ul>
-                            <li>Capital: @country.Capital</li>
-                            <li>Region: @country.Region</li>
-                            <li>Subregion: @country.Subregion</li>
-                            <li>Population: @country.Population</li>
-                            <li>Demonym: @country.Demonym</li>
-                        </ul>
+                        <p>Capital: @country.Capital</p>
+                        <p> Region: @country.Region</p>
+                        <p>Subregion: @country.Subregion</p>
+                        <p>Population: @country.Population</p>
+                        <p>Demonym: @country.Demonym</p>
                     </div>
                 </div>
             </div>
@@ -41,3 +38,5 @@ else
         }
     </div>
 }
+
+
