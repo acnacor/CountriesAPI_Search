@@ -32,7 +32,13 @@ namespace CountriesAPI_Search.Controllers
 
                 if (result != null)
                 {
-                    return View(result);
+
+                    // Ignore case of of the query and returns country that starts with the query instead of contains
+                    // Query: A
+                    // Before: result = Countries' that contains the letter 'a' anywhere in their name
+                    // After: result = Countries that starts with 'a'
+                    var filteredResult = result.Where(y => y.Name.StartsWith(countryName,StringComparison.CurrentCultureIgnoreCase)).ToList();
+                    return View(filteredResult);
                 }
                    
             }
