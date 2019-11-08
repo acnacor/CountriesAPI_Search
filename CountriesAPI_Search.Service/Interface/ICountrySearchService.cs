@@ -1,4 +1,4 @@
-﻿using CountriesAPI_Search.Domain.ViewModel;
+﻿using CountriesAPI_Search.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +8,6 @@ namespace CountriesAPI_Search.Service.Interface
 {
     public interface ICountrySearchService
     {
-        Task<List<CountryViewModel>> GetSearchResultFromCountryName(string countryName);
+        Task<List<CountrySearchResult>> GetSearchResultFromCountryName(string countryName);
     }
 }

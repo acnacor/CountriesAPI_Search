@@ -1,5 +1,5 @@
-﻿using AutoMapper;
-using CountriesAPI_Search.Domain.ViewModel;
+﻿
+using CountriesAPI_Search.Domain.Models;
 using CountriesAPI_Search.Repository.Interface;
 using CountriesAPI_Search.Service.Interface;
 using System;
@@ -12,27 +12,19 @@ namespace CountriesAPI_Search.Service
     public class CountrySearchService : ICountrySearchService
     {
         private readonly ICountryRepository _countryRepository;
-        private readonly IMapper _mapper;
 
-        public CountrySearchService(ICountryRepository countryRepository, IMapper mapper)
+        public CountrySearchService(ICountryRepository countryRepository)
         {
             _countryRepository = countryRepository;
-            _mapper = mapper;
         }
 
-        public async Task<List<CountryViewModel>> GetSearchResultFromCountryName(string countryName)
+        public async Task<List<CountrySearchResult>> GetSearchResultFromCountryName(string countryName)
         {
             var searchResult = await _countryRepository.GetSearchResultFromCountryName(countryName);
 
-            if(searchResult != null)
-            {
-                return _mapper.Map<List<CountryViewModel>>(searchResult);
-            }
-            else
-            {
-                return null;
-            }
-            
+            return searchResult;
+
+
         }
 
     }
